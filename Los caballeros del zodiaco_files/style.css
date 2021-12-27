@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100;1,300;1,400;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color:rgb(229, 145, 145);
+}
+
+html{
+
+    scroll-behavior: smooth;
+
+}
+
+.navbar{
+    background-color:rgb(182, 157, 17);
+    color:saddlebrown;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    z-index:1;
+    margin: 5px;
+}
+
+.navbar-menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+
+}
+
+.navbar-item{
+    font-size: 30px ;
+    padding: 10px;
+    text-transform:uppercase;
+}
+.navbar-item img{
+    height:50px;
+    
+    
+
+}
+.navbar-link{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.navbar-link:hover{
+    color: purple;
+    cursor: pointer;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 20px;
+    margin: 30px;
+    align-items: center;
+    margin: 80px;
+   
+}
+.hero-title{
+    font-size: 35px;
+    text-transform: uppercase;
+}
+.hero-title span{
+    color: goldenrod;
+}
+.hero-caption span{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.hero-caption span{
+    color: blue;
+}
+
+.hero img{
+    width: 60%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin: 20px;
+}
+.hero-img:hover{
+    filter: saturate(60%);
+}
+
+.characters{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.characters-item {
+    text-align: center;
+    margin: 10px;
+    height: 300px;
+    width: 180px;
+    padding: 4px;
+}
+.characters-title{
+    background-color: black;
+    border-radius: 10px;
+    color: blanchedalmond;
+    padding: 3px;
+}
+.characters-item img{
+    object-fit: contain;
+    width: 70%;
+    height: 70%;
+    -webkit-filter: drop-shadow(5px 5px 5px black);
+    filter: drop-shadow(5px 5px 5px blue);
+}
+.contacto{
+    content: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.contacto a{
+    text-decoration:none;
+    color:blue;
+}
+.contacto a::before{
+    content: "🦹‍♂️🦹";
+}
+
+.contactoa a:hover{
+    color: brown;
+    text-shadow: 2px 2px 2px black;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    background-color:rgb(182, 157, 17);
+    color: black;
+    align-items: center;
+}
+.footer span{
+    color:blue
+}

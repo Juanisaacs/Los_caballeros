@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Los%20caballeros%20del%20zodiaco_files/style.css">
+    <link rel="icon" href="Los%20caballeros%20del%20zodiaco_files/caballeros.png" type="image/png">
+
+    <title>Los caballeros del zodiaco</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <ul class="navbar-menu">
+          <li class="navbar-item">
+              <img src="Los%20caballeros%20del%20zodiaco_files/caballeros.png" alt="logo caballeros">
+            </li>
+            <li class="navbar-item">
+            <a class="navbar-link" href="#home">Home</a>
+          </li>
+          <li class="navbar-item">
+            <a class="navbar-link" href="#heroe">Heroe</a>
+          </li>
+          <li class="navbar-item">
+            <a class="navbar-link" href="#contact">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="hero" class="hero">
+        <h1 class="hero-title">Los caballeros de <span>bronce</span></h1>
+        <p class="hero-caption"> <span>Salvaran Atenea de Ades?</span></p>
+        <img src="Los%20caballeros%20del%20zodiaco_files/caballeros.png" alt="Los caballeros de bronce">
+        
+      </section>
+
+      <section id="hero">
+          <div class="hero">
+              <h1 class="hero-title"> Serie mitica</h1>
+              <p class="hero-caption"> Los Caballeros del Zodiaco <span> es una serie de manga escrita e ilustrada por Masami Kurumada<spam></spam>
+            </span></p>
+          </div>
+          <div>
+             <div class="characters">
+             <div class=" characters-item">
+              <h3 class="characters-title">Pegaso</h3>
+              <p class="characters-caption">Meteoros de pegaso</p>
+              <img src="Los%20caballeros%20del%20zodiaco_files/pegaso.png" alt="pegaso">
+          </div>
+            <div class=" characters-item">
+           <h3 class="characters-title">Andromeda</h3>
+           <p class="characters-caption">Cadena nebular</p>
+           <img src="Los%20caballeros%20del%20zodiaco_files/andromeda.png" alt="andromeda">
+           </div>
+          <div class=" characters-item">
+           <h3 class="characters-title">Dragon</h3>
+           <p class="characters-caption">Los 100 dragones</p>
+           <img src="Los%20caballeros%20del%20zodiaco_files/dragon.png" alt="dragon">
+        </div>
+          <div class=" characters-item">
+           <h3 class="characters-title">Cisne</h3>
+           <p class="characters-caption">Polvo de diamantes</p>
+           <img src="Los%20caballeros%20del%20zodiaco_files/cisne.png" alt="cisne">
+           </div>
+          <div class=" characters-item">
+           <h3 class="characters-title">fenix</h3>
+           <p class="characters-caption">Alas de fuego</p>
+           <img src="Los%20caballeros%20del%20zodiaco_files/fenix.png" alt="fenix">
+          </div>
+        </div> 
+      </div></section>
+      <section id="contacto" class="contacto">
+        <h1 class="hero-title">Contacto</h1>
+        <p class="hero-caption"> Si quieres ayudarlos formate como guerrero divino <span>suscribete aqui</span></p>
+        <a href="mailto:loscaballeros@atenea.com">loscaballeros@atenea.com</a>
+
+      </section>
+    </main>
+    <footer>
+      <p>llego <span> el fin del dia2</span></p>
+    </footer>
+  <!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
